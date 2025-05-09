@@ -7,8 +7,9 @@ RUN npm ci
 
 COPY . .
 
-# Give execute permission to esbuild binary
-RUN chmod +x node_modules/@esbuild/linux-x64/bin/esbuild
+# Fix permission issues for Vite and esbuild
+RUN chmod +x node_modules/.bin/vite \
+    && chmod +x node_modules/@esbuild/linux-x64/bin/esbuild
 
 RUN npm run build
 
