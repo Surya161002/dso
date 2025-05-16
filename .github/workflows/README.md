@@ -5,6 +5,8 @@ This directory contains the GitHub Actions workflow for the Tic Tac Toe applicat
 ## Pipeline Stages
 
 The CI/CD pipeline consists of the following stages:
+![image](https://github.com/user-attachments/assets/387f14d6-dc9e-453b-99e7-9b674196216d)
+
 
 1. **Unit Testing** - Runs the test suite using Vitest
 2. **Static Code Analysis** - Performs linting with ESLint
