@@ -80,3 +80,6 @@ View logs:
 ```bash
 kubectl logs -l app=tic-tac-toe
 ```
+
+
+![image](https://github.com/user-attachments/assets/3460440f-d6c4-45b0-aa75-4750bedd2f44)
